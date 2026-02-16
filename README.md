@@ -16,7 +16,7 @@ An artificial intelligence system that predicts GP appointment no-shows using ma
 - [Screenshots](#screenshots)
 - [How to Run the Project](#how-to-run-the-project)
 - [Future Improvements](#future-improvements)
-- [Author & Contact](#author-contact)
+- [Author & Contact](#author-&-contact)
 - [License](#license)
 
 ---
@@ -136,19 +136,19 @@ Frontend communicates with backend via API requests.
 
 ## Screenshots
 
-### Dashboard
+### Dashboard and Prediction
 
-![Dashboard](screenshots/Dashboard&Prediction.png)
+![Dashboard and Prediction](screenshots/dashboard-prediction.png)
 
 
-### Prediction Tool
+### DNA Charts
 
-![Prediction](screenshots/DNAcharts.png)
+![DNA Charts](screenshots/dna-charts.png)
 
 
 ### Model Training Output
 
-![Terminal](screenshots/Terminal.png)
+![Terminal](screenshots/terminal.png)
 
 
 ---
