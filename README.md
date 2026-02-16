@@ -138,17 +138,17 @@ Frontend communicates with backend via API requests.
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard&Prediction.png)
 
 
 ### Prediction Tool
 
-![Prediction](screenshots/prediction.png)
+![Prediction](screenshots/DNAcharts.png)
 
 
 ### Model Training Output
 
-![Terminal](screenshots/terminal.png)
+![Terminal](screenshots/Terminal.png)
 
 
 ---
