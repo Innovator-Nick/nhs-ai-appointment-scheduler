@@ -13,7 +13,7 @@ An artificial intelligence system that predicts GP appointment no-shows using ma
 - [Machine Learning Model Training](#machine-learning-model-training)
 - [Dataset Information](#dataset-information)
 - [System Architecture](#system-architecture)
-- [Screenshots](#screenshots)
+- [Screenshoots](#screenshoots)
 - [How to Run the Project](#how-to-run-the-project)
 - [Future Improvements](#future-improvements)
 - [Author & Contact](#author-&-contact)
@@ -134,7 +134,7 @@ Frontend communicates with backend via API requests.
 
 ---
 
-## Screenshots
+## Screenshoots
 
 ### Dashboard and Prediction
 
