@@ -1,0 +1,238 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nhs-header {
+  background: linear-gradient(135deg, #005EB8, #003087);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nhs-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.nhs-header p {
+  margin: 0.5rem 0 0 0;
+  opacity: 0.9;
+}
+
+.loading {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #005EB8;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.metric {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #005EB8;
+}
+
+.metric.red {
+  color: #D32F2F;
+}
+
+.metric.green {
+  color: #388E3C;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.chart-container {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.chart-container h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.prediction-tool {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 2px solid #E3F2FD;
+}
+
+.prediction-form {
+  margin-top: 1rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-grid div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-grid input, .form-grid select {
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.predict-btn {
+  background: #005EB8;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.predict-btn:hover {
+  background: #003087;
+}
+
+.prediction-result {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.prediction-result.low {
+  background: #E8F5E8;
+  border-left-color: #4CAF50;
+}
+
+.prediction-result.medium {
+  background: #FFF3E0;
+  border-left-color: #FF9800;
+}
+
+.prediction-result.high {
+  background: #FFEBEE;
+  border-left-color: #F44336;
+}
+
+.appointments-table {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.appointments-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.appointments-table th {
+  background: #F5F5F5;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+}
+
+.appointments-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.appointments-table tr:hover {
+  background: #F9F9F9;
+}
+
+.risk-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.risk-badge.low {
+  background: #E8F5E8;
+  color: #2E7D32;
+}
+
+.risk-badge.medium {
+  background: #FFF3E0;
+  color: #F57C00;
+}
+
+.risk-badge.high {
+  background: #FFEBEE;
+  color: #C62828;
+}
+
+.appointments-table tr.high {
+  background: rgba(244, 67, 54, 0.05);
+}
+
+.appointments-table tr.medium {
+  background: rgba(255, 152, 0, 0.05);
+}
+
+.appointments-table tr.low {
+  background: rgba(76, 175, 80, 0.05);
+}
