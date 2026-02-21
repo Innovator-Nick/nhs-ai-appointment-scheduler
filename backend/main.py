@@ -12,7 +12,7 @@ import uvicorn
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="NHS AI Appointment Scheduler",
+    title="Healthacre AI Appointment Scheduler",
     description="AI-powered appointment scheduling for NHS practices",
     version="1.0.0"
 )
@@ -109,13 +109,13 @@ def train_ai_model():
 @app.on_event("startup")
 async def startup_event():
     train_ai_model()
-    print("🏥 NHS AI Scheduler API started successfully!")
+    print("🏥 Healthacre AI Scheduler API started successfully!")
 
 
 # API Endpoints
 @app.get("/")
 async def root():
-    return {"message": "NHS AI Appointment Scheduler API", "status": "running"}
+    return {"message": "Healthacre AI Appointment Scheduler API", "status": "running"}
 
 
 @app.get("/api/dashboard-data")
