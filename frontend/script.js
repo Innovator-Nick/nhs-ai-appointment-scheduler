@@ -55,13 +55,13 @@ function App() {
   };
 
   if (loading) {
-    return <div className="loading">Loading NHS AI Dashboard...</div>;
+    return <div className="loading">Loading Healthacre AI Dashboard...</div>;
   }
 
   return (
     <div className="App">
-      <header className="nhs-header">
-        <h1>🏥 NHS AI Appointment Scheduler</h1>
+      <header className=" Healthacre-header">
+        <h1>🏥 Healthacre AI Appointment Scheduler</h1>
         <p>Intelligent scheduling for better patient care</p>
       </header>
 
