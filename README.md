@@ -1,4 +1,4 @@
-# NHS AI Appointment Scheduler
+# Healthcare AI Appointment Scheduler
 
 An artificial intelligence system that predicts GP appointment no-shows using machine learning and displays risk insights through an interactive dashboard.
 
@@ -23,7 +23,7 @@ An artificial intelligence system that predicts GP appointment no-shows using ma
 
 ## Overview
 
-The NHS AI Appointment Scheduler is a machine learning–powered system designed to predict patient appointment no-shows (DNA – Did Not Attend).
+The Healthcare AI Appointment Scheduler is a machine learning–powered system designed to predict patient appointment no-shows (DNA – Did Not Attend).
 
 Missed appointments create operational inefficiencies and increase healthcare costs. This system uses artificial intelligence to predict no-show risk and visualise results in an interactive dashboard.
 
